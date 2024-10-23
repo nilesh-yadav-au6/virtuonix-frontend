@@ -28,7 +28,7 @@ export interface IMovie {
 }
 
 export const fetchMovies = async () => {
-  const res = await axios.post(import.meta.env.VITE_SERVER_URL, {
+  const res = await axios.post(import.meta.env.VITE_MOVIE_URL, {
     category: "movies",
     page: 0,
     searchableTitle: "salman-khan-movies-list-all",
