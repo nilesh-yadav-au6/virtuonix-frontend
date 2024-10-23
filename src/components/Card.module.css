@@ -1,0 +1,36 @@
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  gap: 16;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 1rem;
+  align-self: self-start;
+}
+
+.rank {
+  color: red;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.start {
+  align-self: center;
+}
+
+.info {
+  color: gray;
+}
+
+.voteContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
